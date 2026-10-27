@@ -9,7 +9,8 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '电路原理', link: '/course/电路原理' },
-      { text: '电机学', link: '/course/电机学' }
+      { text: '电机学', link: '/course/电机学' },
+      { text: '电力系统分析', link: '/course/电力系统分析' }
     ],
 
     sidebar: [
@@ -17,7 +18,8 @@ export default defineConfig({
         text: '课程',
         items: [
           { text: '电路原理 · 归纳总结', link: '/course/电路原理' },
-          { text: '电机学（发电侧版）· 归纳总结', link: '/course/电机学' }
+          { text: '电机学（发电侧版）· 归纳总结', link: '/course/电机学' },
+          { text: '电力系统分析（稳态为主）· 归纳总结', link: '/course/电力系统分析' }
         ]
       }
     ],
