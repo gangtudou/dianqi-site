@@ -6,13 +6,21 @@ import DefaultTheme from 'vitepress/theme'
 import './custom.css'
 import KclDemo from './components/KclDemo.vue'
 import KvlDemo from './components/KvlDemo.vue'
+import VoltageDivider from './components/VoltageDivider.vue'
+import Thevenin from './components/Thevenin.vue'
+import ThreeElement from './components/ThreeElement.vue'
+import Phasor from './components/Phasor.vue'
 
 export default {
   extends: DefaultTheme,
   enhanceApp({ app, router }) {
-    // 全局注册交互动画组件（md 里直接用 <KclDemo /> <KvlDemo />）
+    // 全局注册交互动画组件（md 里直接用 <KclDemo /> <KvlDemo /> 等）
     app.component('KclDemo', KclDemo)
     app.component('KvlDemo', KvlDemo)
+    app.component('VoltageDivider', VoltageDivider)
+    app.component('Thevenin', Thevenin)
+    app.component('ThreeElement', ThreeElement)
+    app.component('Phasor', Phasor)
 
     // SSR 构建阶段无 DOM，全部初始化只在客户端执行
     if (typeof window === 'undefined' || typeof document === 'undefined') return
