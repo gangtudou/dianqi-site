@@ -11,7 +11,8 @@ export default defineConfig({
       { text: '电路原理', link: '/course/电路原理' },
       { text: '电机学', link: '/course/电机学' },
       { text: '电力系统分析', link: '/course/电力系统分析' },
-      { text: '继电保护', link: '/course/继电保护深化' }
+      { text: '继电保护', link: '/course/继电保护深化' },
+      { text: '发电厂电气部分', link: '/course/发电厂电气部分' }
     ],
 
     sidebar: [
@@ -21,7 +22,8 @@ export default defineConfig({
           { text: '电路原理 · 归纳总结', link: '/course/电路原理' },
           { text: '电机学（发电侧版）· 归纳总结', link: '/course/电机学' },
           { text: '电力系统分析（稳态为主）· 归纳总结', link: '/course/电力系统分析' },
-          { text: '继电保护深化 · 归纳总结', link: '/course/继电保护深化' }
+          { text: '继电保护深化 · 归纳总结', link: '/course/继电保护深化' },
+          { text: '发电厂电气部分 · 归纳总结', link: '/course/发电厂电气部分' }
         ]
       }
     ],
