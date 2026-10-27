@@ -4,11 +4,14 @@ layout: home
 hero:
   name: "电气系统自习室"
   text: "从零基础到精通的电气自学笔记"
-  tagline: 面向电力行业从业者与电气爱好者的系统化自学课程：电路原理 → 电机学 → 电力系统分析 → 继电保护 → 发电厂电气部分 → 电力系统自动化
+  tagline: 面向电力行业从业者与电气爱好者的系统化自学课程：六门主干课一条主线，把每门专业课归纳成看得懂、记得住、用得上的笔记
   actions:
     - theme: brand
       text: 开始学习 · 电路原理
       link: /course/电路原理
+    - theme: alt
+      text: 查看课程地图
+      link: /#course-map
 
 features:
   - title: 电路原理（已上线）
@@ -24,3 +27,18 @@ features:
   - title: 电力系统自动化（已上线）
     details: 六门收口课：自动并列、励磁控制、AGC、AVC、变电站综合自动化、调度自动化——把前五门串成自动运行体系
 ---
+
+<div class="slogan-section" id="course-map">
+
+<div class="slogan-reveal" data-text="把每一门专业课，归纳成看得懂、记得住、用得上的笔记">把每一门专业课，归纳成看得懂、记得住、用得上的笔记</div>
+
+<div class="route-strip">
+  <span class="node done">电路原理</span><span class="arrow">→</span>
+  <span class="node done">电机学</span><span class="arrow">→</span>
+  <span class="node done">电力系统分析</span><span class="arrow">→</span>
+  <span class="node done">继电保护</span><span class="arrow">→</span>
+  <span class="node done">发电厂电气部分</span><span class="arrow">→</span>
+  <span class="node done">电力系统自动化</span>
+</div>
+
+</div>
