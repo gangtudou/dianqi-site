@@ -8,14 +8,16 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '电路原理', link: '/course/电路原理' }
+      { text: '电路原理', link: '/course/电路原理' },
+      { text: '电机学', link: '/course/电机学' }
     ],
 
     sidebar: [
       {
         text: '课程',
         items: [
-          { text: '电路原理 · 归纳总结', link: '/course/电路原理' }
+          { text: '电路原理 · 归纳总结', link: '/course/电路原理' },
+          { text: '电机学（发电侧版）· 归纳总结', link: '/course/电机学' }
         ]
       }
     ],
