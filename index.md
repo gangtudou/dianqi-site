@@ -7,11 +7,8 @@ hero:
   tagline: 面向电力行业从业者与电气爱好者的系统化自学课程：六门主干课一条主线，把每门专业课归纳成看得懂、记得住、用得上的笔记
   actions:
     - theme: brand
-      text: 开始学习 · 电路原理
+      text: 开始学习
       link: /course/电路原理
-    - theme: alt
-      text: 查看课程地图
-      link: /#course-map
 
 features:
   - title: 电路原理（已上线）
