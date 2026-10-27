@@ -4,10 +4,16 @@
  */
 import DefaultTheme from 'vitepress/theme'
 import './custom.css'
+import KclDemo from './components/KclDemo.vue'
+import KvlDemo from './components/KvlDemo.vue'
 
 export default {
   extends: DefaultTheme,
-  enhanceApp({ router }) {
+  enhanceApp({ app, router }) {
+    // 全局注册交互动画组件（md 里直接用 <KclDemo /> <KvlDemo />）
+    app.component('KclDemo', KclDemo)
+    app.component('KvlDemo', KvlDemo)
+
     // SSR 构建阶段无 DOM，全部初始化只在客户端执行
     if (typeof window === 'undefined' || typeof document === 'undefined') return
 
