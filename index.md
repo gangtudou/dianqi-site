@@ -1,25 +1,20 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
   name: "电气系统自习室"
   text: "从零基础到精通的电气自学笔记"
-  tagline: My great project tagline
+  tagline: 面向电力行业从业者与电气爱好者的系统化自学课程：电路原理 → 电机学 → 电力系统分析 → 继电保护 → 发电厂电气部分 → 电力系统自动化
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 开始学习 · 电路原理
+      link: /course/电路原理
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 电路原理（已上线）
+    details: 八模块归纳：定律、等效变换、暂态、正弦稳态、三相、变压器——含公式结论、易错点、自测题与4周学习计划
+  - title: 后续课程规划
+    details: 电机学（发电侧版）→ 电力系统分析（稳态为主）→ 继电保护深化 → 发电厂电气部分 → 电力系统自动化，逐门归纳上线
+  - title: 面向自学的设计
+    details: 每课配套国家级规划教材与慕课，压缩到"够用、好复习、能对接工作"，广大网友可直接跟学
 ---
-

@@ -7,22 +7,21 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '首页', link: '/' },
+      { text: '电路原理', link: '/course/电路原理' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: '课程',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '电路原理 · 归纳总结', link: '/course/电路原理' }
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/gangtudou/dianqi-site' }
     ]
   }
 })
