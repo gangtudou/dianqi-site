@@ -11,6 +11,7 @@ import Thevenin from './components/Thevenin.vue'
 import ThreeElement from './components/ThreeElement.vue'
 import Phasor from './components/Phasor.vue'
 import YDelta from './components/YDelta.vue'
+import ControlledSource from './components/ControlledSource.vue'
 
 export default {
   extends: DefaultTheme,
@@ -23,6 +24,7 @@ export default {
     app.component('ThreeElement', ThreeElement)
     app.component('Phasor', Phasor)
     app.component('YDelta', YDelta)
+    app.component('ControlledSource', ControlledSource)
 
     // SSR 构建阶段无 DOM，全部初始化只在客户端执行
     if (typeof window === 'undefined' || typeof document === 'undefined') return
